@@ -5,9 +5,9 @@ import App from "./App.jsx";
 import "./index.css";
 import AppContextProvider from "./providers/AppContextProvider.jsx";
 createRoot(document.getElementById("root")).render(
-  <AppContextProvider>
-    <BrowserRouter>
+  <BrowserRouter>
+    <AppContextProvider>
       <App />
-    </BrowserRouter>
-  </AppContextProvider>
+    </AppContextProvider>
+  </BrowserRouter>
 );
